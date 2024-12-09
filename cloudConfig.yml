@@ -3,9 +3,6 @@ spring:
    hiddenmethod:
       filter:
        enabled: true
-
-  application:
-    name: books-app
   cloud:
     consul:
       host: localhost
