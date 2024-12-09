@@ -1,0 +1,14 @@
+spring:
+  mvc:
+   hiddenmethod:
+      filter:
+       enabled: true
+
+  application:
+    name: books-app
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+server:
+  port: 0
