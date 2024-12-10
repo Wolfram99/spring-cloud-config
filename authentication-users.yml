@@ -15,4 +15,5 @@ spring:
         instance-id: authentication-users-i1
 
 
-
+server:
+  port: 0
