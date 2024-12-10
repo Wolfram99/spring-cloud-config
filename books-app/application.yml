@@ -3,9 +3,5 @@ spring:
    hiddenmethod:
       filter:
        enabled: true
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
 server:
   port: 0
