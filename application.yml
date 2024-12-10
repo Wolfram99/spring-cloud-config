@@ -4,6 +4,3 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
-server:
-  port: 0
-  
