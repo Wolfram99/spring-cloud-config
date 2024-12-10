@@ -19,8 +19,8 @@ spring:
  #     filter:
  #       enabled: true
 
- application:
-   name: books-app
+ # application:
+ #   name: books-app
 
  cloud:
    consul:
