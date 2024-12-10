@@ -1,2 +1,11 @@
-server:
-  port: 8877
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
