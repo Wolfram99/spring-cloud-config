@@ -26,5 +26,5 @@ spring:
    consul:
      discovery:
        instance-id: books-app-i1
-# server:
-#  port: 0
+server:
+ port: 0
