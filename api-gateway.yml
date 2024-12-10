@@ -6,11 +6,11 @@ spring:
       discovery:
         instance-id: api-gateway-i1
 
-    # gateway:
-    #   discovery:
-    #     locator:
-    #       enabled: true
-    #       lower-case-service-id: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
 
 
 server:
