@@ -6,14 +6,8 @@ spring:
       discovery:
         instance-id: api-gateway-i1
 
-    # gateway:
-    #   discovery:
-    #     locator:
-    #       enabled: true
-    #       lower-case-service-id: true
-
-
-server:
-  port: 8080
-  forward-headers-strategy: framework
-
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
