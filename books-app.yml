@@ -14,17 +14,8 @@ spring:
          use_second_level_cache: true
          region:
            factory_class: org.hibernate.cache.jcache.JCacheRegionFactory
- # mvc:
- #   hiddenmethod:
- #     filter:
- #       enabled: true
-
- # application:
- #   name: books-app
-
  cloud:
    consul:
      discovery:
        instance-id: books-app-i1
-server:
- port: 0
+
