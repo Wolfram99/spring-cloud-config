@@ -2,8 +2,8 @@ spring:
  datasource:
    driver-class-name: org.postgresql.Driver
    # url: jdbc:postgresql://localhost:5432/InternshipITexus
-   # username: postgres
-   # password: pgadmin
+   username: postgres
+   password: pgadmin
  jpa:
    properties:
      hibernate:
