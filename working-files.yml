@@ -1,9 +1,9 @@
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: icons
+      # host: localhost
+      # port: 27017
+      # database: icons
 
   servlet:
     multipart:
