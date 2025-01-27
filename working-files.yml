@@ -13,4 +13,4 @@ spring:
   cloud:
     consul:
       discovery:
-        instance-id: working-files-i1
+        instance-id: working-files-i123
