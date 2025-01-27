@@ -4,7 +4,9 @@ spring:
       # host: localhost
       # port: 8500
       discovery:
+        include-hostname-in-instance-id: true
         instance-id: api-gateway-i1
+      enabled: true
     gateway:
       discovery:
         locator:
