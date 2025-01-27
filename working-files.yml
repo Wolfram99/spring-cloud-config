@@ -15,5 +15,6 @@ spring:
       discovery:
         instance-id: working-files-i123
         include-hostname-in-instance-id: true
+        hostname: working-files-123
       enabled: true
 
