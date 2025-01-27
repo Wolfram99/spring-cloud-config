@@ -14,3 +14,6 @@ spring:
     consul:
       discovery:
         instance-id: working-files-i123
+        include-hostname-in-instance-id: true
+      enabled: true
+
