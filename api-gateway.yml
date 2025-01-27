@@ -7,7 +7,6 @@ spring:
       discovery:
         include-hostname-in-instance-id: true
         instance-id: api-gateway-i1
-
     gateway:
       discovery:
         locator:
