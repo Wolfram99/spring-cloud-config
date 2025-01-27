@@ -23,7 +23,7 @@ spring:
                 fallbackUri: forward:/fallback/appFallback
 
         - id: authentication-users-route
-          uri: lb://authentication-users
+          uri: lb://authentication-users    
           predicates:
             - Path=/authentication-users/auth/**
             - Method=GET,POST,PUT,DELETE
@@ -33,9 +33,11 @@ spring:
                 name: authCircuitBreakers
 
         - id: wf-route
-          uri: lb://working-files
+          # uri: lb://working-files  
+          ri: lb://working-file-svc
           predicates:
-            - Path=/working-files/api/v0.1/**
+            # - Path=/working-files/api/v0.1/**
+            - Path=/working-file-svc/api/v0.1/**
             - Method=GET,POST,PUT,DELETE
           filters:
             - name: CircuitBreaker
